@@ -53,7 +53,7 @@ struct MetronomeView: View {
                     Image("MetronomeArrow")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-//                        .rotationEffect(Angle(degrees: isTick ? 30 : -30))
+                        .rotationEffect(Angle(degrees: isTick ? 30 : -30))
                 }
                 .padding(.top, 80)
                 .padding(.bottom, -80)
