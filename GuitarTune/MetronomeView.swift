@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MetronomeView: View {
     
-    
     @State private var selectedBpm = "120"
     @State private var selectedTimeSignature = "4/4"
     @State private var isTick = false
